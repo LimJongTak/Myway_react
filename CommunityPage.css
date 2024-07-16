@@ -1,0 +1,131 @@
+/* src/CommunityPage.css */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.logo {
+  font-size: 24px;
+  color: #0078d4;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.mypage-button {
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+
+/* CommunityPage.css */
+
+.banner {
+  width: 100%;
+  overflow: hidden; /* Ensures no overflow */
+}
+
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block; /* Ensures no extra space below the image */
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.community-button {
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tabs {
+  margin-top: 20px;
+}
+
+.tabs ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.tabs li {
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.tabs input {
+  display: block;
+  width: 60%;
+  margin: 20px auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: 18%;
+}
+
+.footer-column h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: gray;
+}
